@@ -1,0 +1,398 @@
+body{
+    background-color: black;
+    color: white;
+}
+.logo{
+    display:flex;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.home-button{
+    border: none;
+    border-radius: 50%;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+}
+
+.home-button img{
+    border-radius: 50%;
+}
+.search-bar{
+    background:#242424;
+    border-radius:25px;
+    padding-left:10px;
+}
+
+.search-bar input{
+    background:transparent;
+    border:none;
+    outline:none;
+    color:white;
+    width:300px;
+    font-size:14px;
+}
+
+.search-bar i{
+    color:#b3b3b3;
+    font-size:20px;
+}
+.browse-button{
+    border: none;
+    border-radius: 50%;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+}
+.premium{
+    border: none;
+    color: rgb(181, 180, 180);
+    text-decoration: none;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+.premium:hover,.support:hover,.download:hover{
+    color: #f5fff8;
+    transform: scale(1.05);
+}
+.support{
+    border: none;
+    color: rgb(181, 180, 180);
+    text-decoration: none;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+    font-size: 14px;
+}
+.download{
+    color: rgb(181, 180, 180);
+    text-decoration: none;
+    border: none;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+    font-size: 14px;
+}
+.login-button{
+    border: 1px solid white;
+    border-radius: 25%;
+    padding: 10px 20px;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:white;
+    color: black;
+    transition: all 0.3s ease;
+}
+.login-button:hover{
+    transform: scale(1.05);
+}
+.signup-button{
+    border: none;
+    border-radius: 50%;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+    color: rgb(181, 180, 180);
+    transition: all 0.2s ease;
+}
+.signup-button:hover{
+    color: #f5fff8;
+    transform: scale(1.05);
+}
+.install-button{
+    border: none;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+    transition: all 0.3s ease;
+}
+.install-button:hover{
+    transform: scale(1.05);
+}
+.install-button img{
+    width: 100px;
+}
+.create-button{
+    border: none;
+    background-color:#1e1e1e;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+}
+.create-button:hover{
+    background-color:#444141;
+}
+.library{
+    font-size: 20px;
+    font-weight: bold;
+}
+.first-playlist,.third-playlist{
+    font-size: 18px;
+}
+.second-playlist,.fourth-playlist{
+    font-size: 14px;
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-color:#121212;
+    border-radius: 10px;
+    padding: 10px;
+}
+.library1-card{
+    background-color:#1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+}
+.library2-card{
+    background-color:#1e1e1e;
+    border-radius: 10px;
+    text-align:left;
+    padding: 20px;
+}
+.createplaylist,.browsepodcasts{
+    background-color:white;
+    color:black;
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+    font-size:12px;
+    font-weight:bold;
+    transition: all 0.3s ease;
+}
+.createplaylist:hover,.browsepodcasts:hover{
+    background-color:#444141;
+    transform: scale(1.05);
+}
+.privacypolicy,.cookies,.legal,.aboutads,.accessibility,.privacy{
+    color:#b3b3b3;
+    font-size:12px;
+    text-decoration:none;
+    transition: all 0.3s ease;
+}
+.privacypolicy:hover,.cookies:hover,.legal:hover,.aboutads:hover,.accessibility:hover,.privacy:hover{
+    color:white;
+    transform: scale(1.05);
+}
+.cookies-button{
+    background:none;
+    color:white;
+    border:none;
+    padding-left: 0px;
+    font-size:14px;
+    font-weight:bold;
+    text-align:left;
+    transition: all 0.2s ease;
+}
+.cookies-button:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+.language-button{
+    border:solid 2px rgb(209, 207, 207);
+    border-radius: 25px;
+    background-color:#121212;
+    color:white;
+    padding:5px 10px;
+    font-size:14px;
+    font-weight:bold;
+    text-align:left;
+    transition: all 0.2 ease;
+}
+.language-button:hover{
+    transform: scale(1.05);
+    border-color: white;
+}
+.footer{
+    text-align:left;
+    align-items: end;
+}
+.main-content{
+    background-color:#121212;
+    border-radius: 10px;
+    padding: 10px;
+}
+.play-button img{
+    border:none;
+    border-radius:50%;
+}
+.song-card img{
+    width: 100px;
+}
+.artist-card img{
+    border: none;
+    border-radius: 50%;
+    padding: none;
+    cursor: pointer;
+    overflow:hidden;
+    object-fit:cover;
+    background:none;
+}
+
+.song-card ,.artist-card{
+    background: #181818;
+    border-radius: 8px;
+    padding: 12px;
+    width: 180px;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.song-card:hover ,.artist-card:hover{
+    background: #282828;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-wrapper img {
+    width: 100%;
+    border-radius: 6px;
+    display: block;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background:none;
+    border: none;
+    object-fit:cover;
+    overflow:hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.song-card:hover .play-button {
+    opacity: 1;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(0);
+}
+.artist-card:hover .play-button {
+    opacity: 1;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(0);
+}
+.song-title {
+    margin: 8px 0 2px 0;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.song-artist {
+    font-size: 12px;
+    color: #b3b3b3;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.songs-container,.artists-container {
+    position: relative;
+    width: 100%;        /* this is now the "visible box" — matches your Trending Songs shelf width */
+    overflow: hidden;    /* clip anything outside this exact box */
+}
+.songs-row::-webkit-scrollbar {
+    display: none;         /* optional: hide scrollbar in Chrome/Safari */
+}
+.artists-row::-webkit-scrollbar {
+    display: none;         /* optional: hide scrollbar in Chrome/Safari */
+}
+
+.arrow {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+.songs-container:hover .arrow{
+    opacity: 1;
+}
+
+.left-btn {
+    left: 10px;   /* positive value now — sits just inside the visible edge */
+}
+
+.right-btn {
+    right: 10px;  /* same — inside the visible box, not past hidden content */
+}
+.songs-wrapper{
+    position: relative;
+    width: 100%;      /* was: fit-content */
+}
+.songs-row {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 100%;       /* make the constraint explicit */
+}
+.artists,.trending{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+
+}
+.artists:hover,.trending:hover{
+    text-decoration: underline;
+}
